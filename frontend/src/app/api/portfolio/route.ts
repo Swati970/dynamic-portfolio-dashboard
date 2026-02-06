@@ -1,4 +1,3 @@
-
 import { NextResponse } from 'next/server';
 import { PortfolioService } from '@/lib/services/portfolio';
 
@@ -6,16 +5,17 @@ import { PortfolioService } from '@/lib/services/portfolio';
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
-const portfolioService = new PortfolioService();
-
 export async function GET() {
     try {
+        console.log('API route called');
+        const portfolioService = new PortfolioService();
         const data = await portfolioService.getPortfolioData();
+        console.log('Data fetched successfully');
         return NextResponse.json({ success: true, data });
     } catch (error) {
         console.error('API Error:', error);
         return NextResponse.json(
-            { success: false, error: 'Failed to fetch portfolio data' },
+            { success: false, error: `Failed to fetch portfolio data: ${error}` },
             { status: 500 }
         );
     }
