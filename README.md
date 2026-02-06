@@ -2,6 +2,8 @@
 
 A Next.js application for tracking stock investments with real-time price updates and sector analytics.
 
+🚀 **Live Demo:** [https://dynamic-portfolio-dashboard-nz3s.vercel.app/](https://dynamic-portfolio-dashboard-nz3s.vercel.app/)
+
 ## Features
 
 - **Real-time Data**: Updates Current Market Price (CMP) every 15 seconds

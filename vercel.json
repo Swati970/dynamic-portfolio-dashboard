@@ -1,4 +1,5 @@
 {
+  "name": "dynamic-portfolio-dashboard",
   "version": 2,
   "builds": [
     {
