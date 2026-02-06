@@ -1,0 +1,44 @@
+[
+    {
+        "sector": "Technology",
+        "stockName": "Infosys Ltd",
+        "symbol": "INFY.NS",
+        "purchasePrice": 1450.50,
+        "quantity": 50
+    },
+    {
+        "sector": "Technology",
+        "stockName": "TCS Ltd",
+        "symbol": "TCS.NS",
+        "purchasePrice": 3200.00,
+        "quantity": 30
+    },
+    {
+        "sector": "Banking",
+        "stockName": "HDFC Bank",
+        "symbol": "HDFCBANK.NS",
+        "purchasePrice": 1600.00,
+        "quantity": 40
+    },
+    {
+        "sector": "Banking",
+        "stockName": "ICICI Bank",
+        "symbol": "ICICIBANK.NS",
+        "purchasePrice": 950.00,
+        "quantity": 60
+    },
+    {
+        "sector": "Automobile",
+        "stockName": "Maruti Suzuki",
+        "symbol": "MARUTI.NS",
+        "purchasePrice": 9500.00,
+        "quantity": 10
+    },
+    {
+        "sector": "FMCG",
+        "stockName": "Hindustan Unilever",
+        "symbol": "HINDUNILVR.NS",
+        "purchasePrice": 2400.00,
+        "quantity": 25
+    }
+]

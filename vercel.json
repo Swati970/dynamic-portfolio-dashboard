@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd portfolio-dashboard/frontend && npm install && npm run build",
+  "outputDirectory": "portfolio-dashboard/frontend/.next",
+  "installCommand": "cd portfolio-dashboard/frontend && npm install",
+  "framework": "nextjs",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/portfolio-dashboard/frontend/$1"
+    }
+  ]
+}
